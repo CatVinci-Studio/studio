@@ -38,6 +38,7 @@ nothing new to learn and nothing to pay for.
 | GitHub profile | [CatVinci-Studio/.github](https://github.com/CatVinci-Studio/.github) |
 | News | [catvinci.com/news](https://catvinci.com/news/) |
 | Join us | [catvinci.com/#join](https://catvinci.com/#join) |
+| Discord | [catvinci.com/discord](https://catvinci.com/discord) |
 | Contact | [studio@catvinci.com](mailto:studio@catvinci.com) |
 
 ## In this repository
