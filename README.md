@@ -46,5 +46,7 @@ nothing new to learn and nothing to pay for.
   use them.
 - [`copy/`](copy/) — the positioning and philosophy in the ten languages the
   website speaks.
+- [`textus/`](textus/) — materials for presenting Textus: icon, screenshots,
+  video covers and teasers.
 
 Supported by the **Anthropic Startup Program**.
