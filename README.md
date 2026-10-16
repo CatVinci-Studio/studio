@@ -47,6 +47,7 @@ nothing new to learn and nothing to pay for.
 - [`copy/`](copy/) — the positioning and philosophy in the ten languages the
   website speaks.
 - [`textus/`](textus/) — materials for presenting Textus: icon, screenshots,
-  video covers and teasers.
+  video covers and teasers. Copies of the originals in the Textus working
+  folder; `scripts/sync-textus.sh` refreshes them.
 
 Supported by the **Anthropic Startup Program**.
