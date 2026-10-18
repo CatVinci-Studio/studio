@@ -8,6 +8,7 @@
 #   screenshots/desktop/  <- Textus/assets/site-assets/app/{en,zh}   (the README shots)
 #   screenshots/ios/      <- Textus/assets/app-store/{en,zh-Hans}    (the App Store shots)
 #   video/                <- Textus/video/out                         (covers, posters, teasers)
+#   social/               <- Textus/promo/{social-card,youtube-thumbnail} (link previews)
 #
 # textus/README.md is written by hand and left alone.
 set -euo pipefail
@@ -49,6 +50,9 @@ for lang in en zh; do
     copy "$src/video/out/$f" "$dst/video"
   done
 done
+
+copy "$src/promo/social-card/textus-social-preview.png" "$dst/social"
+copy "$src/promo/youtube-thumbnail/textus-youtube-thumbnail.png" "$dst/social"
 
 echo "textus/ refreshed from $src"
 git -C "$here" status --short -- textus

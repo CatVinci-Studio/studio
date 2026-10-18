@@ -2,7 +2,7 @@
 
 **The next-generation Markdown editor.** · **下一代 Markdown 编辑器。**
 
-Write with the flow; AI grinds the ink. · 下笔成章，AI 研墨。
+You hold the pen. AI keeps your ink flowing. · 下笔成章，AI 研墨。
 
 Materials for anyone writing about Textus: the icon, screenshots, video
 covers and teasers. Use them freely to present Textus; please don't alter
@@ -15,7 +15,9 @@ Textus 时可以随意使用，请不要改动图标。
 |---|---|
 | What · 是什么 | A Markdown editor with an AI writing assistant built in. · 内置 AI 写作助手的 Markdown 编辑器。 |
 | Price · 价格 | Free and open source (MIT). · 免费开源（MIT 协议）。 |
-| Platforms · 平台 | macOS (Apple silicon), Windows, Linux. iPhone and iPad coming soon. · macOS（Apple 芯片）、Windows、Linux；iPhone 与 iPad 版即将推出。 |
+| Platforms · 平台 | macOS (Apple silicon and Intel), Windows, Linux. iPhone and iPad coming soon. · macOS（Apple 芯片与 Intel）、Windows、Linux；iPhone 与 iPad 版即将推出。 |
+| Video · 视频 | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [Bilibili · B 站](https://www.bilibili.com/video/BV19LJb6WEWb) |
+| Feature demos · 功能演示 | [textus.catvinci.com/tutorials](https://textus.catvinci.com/tutorials) |
 | Languages · 界面语言 | 10: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Deutsch, Русский, Português |
 | Website · 官网 | [textus.catvinci.com](https://textus.catvinci.com) |
 | Download · 下载 | [GitHub Releases](https://github.com/CatVinci-Studio/Textus/releases/latest) |
@@ -51,3 +53,4 @@ Textus 时可以随意使用，请不要改动图标。
 | [`screenshots/desktop/`](screenshots/desktop/) | The desktop app, English and Chinese: writing, formulas, split view, zen mode, AI settings. · 桌面版截图（中英）：写作、公式、分屏、禅模式、AI 设置。 |
 | [`screenshots/ios/`](screenshots/ios/) | iPhone and iPad, English and Chinese. · iPhone 与 iPad 截图（中英）。 |
 | [`video/`](video/) | Covers (landscape and portrait), posters and short teasers of the promo video, English and Chinese. · 宣传视频的封面（横版、竖版）、海报和短预告（中英）。 |
+| [`social/`](social/) | Link preview card (1280×640) and YouTube thumbnail (1280×720). · 链接预览卡片（1280×640）和 YouTube 缩略图（1280×720）。 |
