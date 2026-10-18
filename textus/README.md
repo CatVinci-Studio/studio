@@ -16,7 +16,7 @@ Textus 时可以随意使用，请不要改动图标。
 | What · 是什么 | A Markdown editor with an AI writing assistant built in. · 内置 AI 写作助手的 Markdown 编辑器。 |
 | Price · 价格 | Free and open source (MIT). · 免费开源（MIT 协议）。 |
 | Platforms · 平台 | macOS (Apple silicon and Intel), Windows, Linux. iPhone and iPad coming soon. · macOS（Apple 芯片与 Intel）、Windows、Linux；iPhone 与 iPad 版即将推出。 |
-| Video · 视频 | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [Bilibili · B 站](https://www.bilibili.com/video/BV19LJb6WEWb) |
+| Video · 视频 | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [Bilibili · B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4: [English](https://textus.catvinci.com/media/promo/textus-promo-1.0-en.mp4), [中文](https://textus.catvinci.com/media/promo/textus-promo-1.0-zh.mp4) |
 | Feature demos · 功能演示 | [textus.catvinci.com/tutorials](https://textus.catvinci.com/tutorials) |
 | Languages · 界面语言 | 10: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Deutsch, Русский, Português |
 | Website · 官网 | [textus.catvinci.com](https://textus.catvinci.com) |
@@ -53,4 +53,15 @@ Textus 时可以随意使用，请不要改动图标。
 | [`screenshots/desktop/`](screenshots/desktop/) | The desktop app, English and Chinese: writing, formulas, split view, zen mode, AI settings. · 桌面版截图（中英）：写作、公式、分屏、禅模式、AI 设置。 |
 | [`screenshots/ios/`](screenshots/ios/) | iPhone and iPad, English and Chinese. · iPhone 与 iPad 截图（中英）。 |
 | [`video/`](video/) | Covers (landscape and portrait), posters and short teasers of the promo video, English and Chinese. · 宣传视频的封面（横版、竖版）、海报和短预告（中英）。 |
-| [`social/`](social/) | Link preview card (1280×640) and YouTube thumbnail (1280×720). · 链接预览卡片（1280×640）和 YouTube 缩略图（1280×720）。 |
+| [`social/`](social/) | Link preview card (1280×640), YouTube thumbnail (1280×720), WeChat article covers (2.35:1 and 1:1). · 链接预览卡片（1280×640）、YouTube 缩略图（1280×720）、公众号文章封面（2.35:1 与 1:1）。 |
+| [`images/zh/`](images/zh/) | Article images in Chinese: what you see is what you get; formulas, tables and diagrams; Textus AI; any LLM; free and open source. · 中文文章配图：所见即所得、公式表格图表、Textus AI、任选模型、免费开源。 |
+| [`press-kit.md`](press-kit.md) | Fact sheet, descriptions in four lengths (Chinese and English), feature list, outreach templates. · 基本信息、四种长度的中英文介绍、功能要点、联络模板。 |
+
+## Videos · 视频
+
+| | Link · 链接 |
+|---|---|
+| Promo, 105 s · 宣传片（105 秒） | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4 [English](https://textus.catvinci.com/media/promo/textus-promo-1.0-en.mp4) / [中文](https://textus.catvinci.com/media/promo/textus-promo-1.0-zh.mp4) |
+| Feature clips · 功能短动画 | [textus.catvinci.com/tutorials](https://textus.catvinci.com/tutorials) — each clip is also at `textus.catvinci.com/media/tutorials/{en,zh}/<name>.mp4` · 每段也可直接下载 |
+
+The MP4 files are kept out of this repository (they are large); download them from the links above. · 视频文件较大，不放在仓库里，从上面的链接下载。

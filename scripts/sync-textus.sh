@@ -8,7 +8,9 @@
 #   screenshots/desktop/  <- Textus/assets/site-assets/app/{en,zh}   (the README shots)
 #   screenshots/ios/      <- Textus/assets/app-store/{en,zh-Hans}    (the App Store shots)
 #   video/                <- Textus/video/out                         (covers, posters, teasers)
-#   social/               <- Textus/promo/{social-card,youtube-thumbnail} (link previews)
+#   social/               <- Textus/promo/{social-card,youtube-thumbnail,wechat-cover} (link previews, covers)
+#   images/zh/            <- Textus/promo/wechat-images                (article images, Chinese)
+#   press-kit.md          <- Textus/promo/press-kit.md                 (fact sheet and descriptions)
 #
 # textus/README.md is written by hand and left alone.
 set -euo pipefail
@@ -53,6 +55,9 @@ done
 
 copy "$src/promo/social-card/textus-social-preview.png" "$dst/social"
 copy "$src/promo/youtube-thumbnail/textus-youtube-thumbnail.png" "$dst/social"
+for f in "$src/promo/wechat-cover"/textus-wechat-cover*.png; do copy "$f" "$dst/social"; done
+for f in "$src/promo/wechat-images"/[0-9]-*.png; do copy "$f" "$dst/images/zh"; done
+cp -f "$src/promo/press-kit.md" "$dst/press-kit.md"
 
 echo "textus/ refreshed from $src"
 git -C "$here" status --short -- textus
