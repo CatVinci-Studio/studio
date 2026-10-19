@@ -8,8 +8,8 @@
 #   screenshots/desktop/  <- Textus/assets/site-assets/app/{en,zh}   (the README shots)
 #   screenshots/ios/      <- Textus/assets/app-store/{en,zh-Hans}    (the App Store shots)
 #   video/                <- Textus/video/out                         (covers, posters, teasers)
-#   social/               <- Textus/promo/{social-card,youtube-thumbnail,wechat-cover} (link previews, covers)
-#   images/zh/            <- Textus/promo/wechat-images                (article images, Chinese)
+#   social/               <- Textus/promo/brand/covers                 (link previews, thumbnails, covers)
+#   images/<lang>/        <- Textus/promo/brand/features/<lang>         (feature images for articles)
 #   press-kit.md          <- Textus/promo/press-kit.md                 (fact sheet and descriptions)
 #
 # textus/README.md is written by hand and left alone.
@@ -53,10 +53,11 @@ for lang in en zh; do
   done
 done
 
-copy "$src/promo/social-card/textus-social-preview.png" "$dst/social"
-copy "$src/promo/youtube-thumbnail/textus-youtube-thumbnail.png" "$dst/social"
-for f in "$src/promo/wechat-cover"/textus-wechat-cover*.png; do copy "$f" "$dst/social"; done
-for f in "$src/promo/wechat-images"/[0-9]-*.png; do copy "$f" "$dst/images/zh"; done
+for f in "$src/promo/brand/covers"/*.png; do copy "$f" "$dst/social"; done
+for dir in "$src/promo/brand/features"/*/; do
+  lang="$(basename "$dir")"
+  for f in "$dir"*.png; do copy "$f" "$dst/images/$lang"; done
+done
 cp -f "$src/promo/press-kit.md" "$dst/press-kit.md"
 
 echo "textus/ refreshed from $src"
