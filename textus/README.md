@@ -53,7 +53,7 @@ Textus 时可以随意使用，请不要改动图标。
 | [`screenshots/desktop/`](screenshots/desktop/) | The desktop app, English and Chinese: writing, formulas, split view, zen mode, AI settings. · 桌面版截图（中英）：写作、公式、分屏、禅模式、AI 设置。 |
 | [`screenshots/ios/`](screenshots/ios/) | iPhone and iPad, English and Chinese. · iPhone 与 iPad 截图（中英）。 |
 | [`video/`](video/) | Covers (landscape and portrait), posters and short teasers of the promo video, English and Chinese. · 宣传视频的封面（横版、竖版）、海报和短预告（中英）。 |
-| [`social/`](social/) | Link preview card (1280×640), YouTube thumbnail (1280×720), WeChat article covers (2.35:1 and 1:1). · 链接预览卡片（1280×640）、YouTube 缩略图（1280×720）、公众号文章封面（2.35:1 与 1:1）。 |
+| [`social/`](social/) | Covers by aspect ratio, named `textus-cover-<ratio>-<lang>.png` (1x1, 4x3, 2.35x1, 2x1), plus the YouTube thumbnail. · 按比例的封面，文件名为 `textus-cover-<比例>-<语言>.png`（1x1、4x3、2.35x1、2x1），以及 YouTube 缩略图。 |
 | [`images/zh/`](images/zh/) | Article images in Chinese: what you see is what you get; formulas, tables and diagrams; Textus AI; any LLM; free and open source. · 中文文章配图：所见即所得、公式表格图表、Textus AI、任选模型、免费开源。 |
 | [`press-kit.md`](press-kit.md) | Fact sheet, descriptions in four lengths (Chinese and English), feature list, outreach templates. · 基本信息、四种长度的中英文介绍、功能要点、联络模板。 |
 

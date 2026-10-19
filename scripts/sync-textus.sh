@@ -8,8 +8,8 @@
 #   screenshots/desktop/  <- Textus/assets/site-assets/app/{en,zh}   (the README shots)
 #   screenshots/ios/      <- Textus/assets/app-store/{en,zh-Hans}    (the App Store shots)
 #   video/                <- Textus/video/out                         (covers, posters, teasers)
-#   social/               <- Textus/promo/brand/covers                 (link previews, thumbnails, covers)
-#   images/<lang>/        <- Textus/promo/brand/features/<lang>         (feature images for articles)
+#   social/               <- Textus/promo/assets/covers/<ratio>/        (covers by aspect ratio, -zh / -en)
+#   images/<lang>/        <- Textus/promo/assets/images/<lang>          (article images)
 #   press-kit.md          <- Textus/promo/press-kit.md                 (fact sheet and descriptions)
 #
 # textus/README.md is written by hand and left alone.
@@ -53,10 +53,11 @@ for lang in en zh; do
   done
 done
 
-for f in "$src/promo/brand/covers"/*.png; do copy "$f" "$dst/social"; done
-for dir in "$src/promo/brand/features"/*/; do
+# Only real files: the video covers in assets/covers are links to video/out, copied above.
+for f in "$src/promo/assets/covers"/*/*.png; do [ -L "$f" ] || copy "$f" "$dst/social"; done
+for dir in "$src/promo/assets/images"/*/; do
   lang="$(basename "$dir")"
-  for f in "$dir"*.png; do copy "$f" "$dst/images/$lang"; done
+  for f in "$dir"*.png; do [ -e "$f" ] && copy "$f" "$dst/images/$lang"; done
 done
 cp -f "$src/promo/press-kit.md" "$dst/press-kit.md"
 
