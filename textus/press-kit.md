@@ -15,11 +15,11 @@ Rules: never "CSS" · never the old name / rename · export = "PDF, Word, HTML a
 | 协议 / License | MIT |
 | 技术 / Stack | Tauri 2 (Rust) + React + Milkdown/ProseMirror |
 | 界面语言 / UI languages | 10：English、简体中文、繁體中文、日本語、한국어、Español、Français、Deutsch、Русский、Português |
-| 官网 / Website | https://textus.catvinci.com |
+| 官网 / Website | https://textus.md |
 | 源码 / Source | https://github.com/CatVinci-Studio/Textus |
 | 下载 / Download | https://github.com/CatVinci-Studio/Textus/releases/latest |
 | Homebrew | `brew install --cask catvinci-studio/tap/textus` |
-| 社区 / Community | https://textus.catvinci.com/discord |
+| 社区 / Community | https://textus.md/discord |
 | 联系 / Contact | contact@catvinci.com |
 
 ## 素材 / Assets
@@ -30,8 +30,8 @@ Rules: never "CSS" · never the old name / rename · export = "PDF, Word, HTML a
 - 截图 Screenshots：`screenshots/desktop/{en,zh}/`、`screenshots/ios/`
 - 文章配图 Article images：`images/zh/`（所见即所得、公式表格图表、Textus AI、任选模型、免费开源）
 - 封面与卡片 Covers：`social/`（链接预览卡片、YouTube 缩略图、公众号封面）、`video/`（视频封面、海报、预告动图）
-- 宣传片 Promo video（105 秒）：YouTube https://youtu.be/k_ew9TRljz0 · B 站 https://b23.tv/BV19LJb6WEWb · MP4 https://textus.catvinci.com/media/promo/textus-promo-1.0-en.mp4 / https://textus.catvinci.com/media/promo/textus-promo-1.0-zh.mp4
-- 功能短动画 Feature clips：https://textus.catvinci.com/tutorials
+- 宣传片 Promo video（105 秒）：YouTube https://youtu.be/k_ew9TRljz0 · B 站 https://b23.tv/BV19LJb6WEWb · MP4 https://textus.md/media/promo/textus-promo-1.0-en.mp4 / https://textus.md/media/promo/textus-promo-1.0-zh.mp4
+- 功能短动画 Feature clips：https://textus.md/tutorials
 
 ---
 
@@ -136,7 +136,7 @@ I'm ChengAo, the developer of Textus. It's a free, MIT-licensed Markdown editor 
 
 What makes it different is the AI. It never edits your text on its own. Completions show up in grey, edits arrive as proposals with a reason that you accept sentence by sentence, and comments go in the margin. You can use your own provider or a local model through Ollama, and there's no account or telemetry.
 
-- Site: https://textus.catvinci.com
+- Site: https://textus.md
 - GitHub: https://github.com/CatVinci-Studio/Textus
 - 105-second video and screenshots: <link>
 
@@ -152,7 +152,7 @@ ChengAo Shen, CatVinci Studio
 
 和其他 AI 写作工具不同的是，Textus 的 AI 不会直接改动文字：续写以灰字出现，按 Tab 才采纳；改稿给出建议和理由，可以一句一句地选；批注写在页边。可以接 DeepSeek、通义千问等国产模型，也能用 Ollama 本地运行，无需注册。
 
-官网：https://textus.catvinci.com
+官网：https://textus.md
 GitHub：https://github.com/CatVinci-Studio/Textus
 
 如果您有兴趣试用或介绍，需要任何素材或说明，随时联系我。谢谢！
