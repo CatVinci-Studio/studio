@@ -16,10 +16,10 @@ Textus 时可以随意使用，请不要改动图标。
 | What · 是什么 | A Markdown editor with an AI writing assistant built in. · 内置 AI 写作助手的 Markdown 编辑器。 |
 | Price · 价格 | Free and open source (MIT). · 免费开源（MIT 协议）。 |
 | Platforms · 平台 | macOS (Apple silicon and Intel), Windows, Linux. iPhone and iPad coming soon. · macOS（Apple 芯片与 Intel）、Windows、Linux；iPhone 与 iPad 版即将推出。 |
-| Video · 视频 | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [Bilibili · B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4: [English](https://textus.catvinci.com/media/promo/textus-promo-1.0-en.mp4), [中文](https://textus.catvinci.com/media/promo/textus-promo-1.0-zh.mp4) |
-| Feature demos · 功能演示 | [textus.catvinci.com/tutorials](https://textus.catvinci.com/tutorials) |
+| Video · 视频 | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [Bilibili · B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4: [English](https://textus.md/media/promo/textus-promo-1.0-en.mp4), [中文](https://textus.md/media/promo/textus-promo-1.0-zh.mp4) |
+| Feature demos · 功能演示 | [textus.md/tutorials](https://textus.md/tutorials) |
 | Languages · 界面语言 | 10: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Deutsch, Русский, Português |
-| Website · 官网 | [textus.catvinci.com](https://textus.catvinci.com) |
+| Website · 官网 | [textus.md](https://textus.md) |
 | Download · 下载 | [GitHub Releases](https://github.com/CatVinci-Studio/Textus/releases/latest) |
 | Source · 源码 | [CatVinci-Studio/Textus](https://github.com/CatVinci-Studio/Textus) |
 | Made by · 出品 | [CatVinci Studio](https://catvinci.com) |
@@ -61,7 +61,7 @@ Textus 时可以随意使用，请不要改动图标。
 
 | | Link · 链接 |
 |---|---|
-| Promo, 105 s · 宣传片（105 秒） | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4 [English](https://textus.catvinci.com/media/promo/textus-promo-1.0-en.mp4) / [中文](https://textus.catvinci.com/media/promo/textus-promo-1.0-zh.mp4) |
-| Feature clips · 功能短动画 | [textus.catvinci.com/tutorials](https://textus.catvinci.com/tutorials) — each clip is also at `textus.catvinci.com/media/tutorials/{en,zh}/<name>.mp4` · 每段也可直接下载 |
+| Promo, 105 s · 宣传片（105 秒） | [YouTube](https://www.youtube.com/watch?v=k_ew9TRljz0) · [B 站](https://www.bilibili.com/video/BV19LJb6WEWb) · MP4 [English](https://textus.md/media/promo/textus-promo-1.0-en.mp4) / [中文](https://textus.md/media/promo/textus-promo-1.0-zh.mp4) |
+| Feature clips · 功能短动画 | [textus.md/tutorials](https://textus.md/tutorials) — each clip is also at `textus.md/media/tutorials/{en,zh}/<name>.mp4` · 每段也可直接下载 |
 
 The MP4 files are kept out of this repository (they are large); download them from the links above. · 视频文件较大，不放在仓库里，从上面的链接下载。

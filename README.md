@@ -28,7 +28,7 @@ nothing new to learn and nothing to pay for.
 
 - **[Textus](https://github.com/CatVinci-Studio/Textus)** — the
   next-generation Markdown editor. Free for macOS, Windows and Linux.
-  [textus.catvinci.com](https://textus.catvinci.com)
+  [textus.md](https://textus.md)
 
 ## Where things live
 
